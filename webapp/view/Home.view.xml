@@ -1,0 +1,11 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.demo.nav.controller.Home"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+			<Page title="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
+				<content>
+					<Button id="displayNotFoundBtn" text="{i18n>DisplayNotFound}" press="onDisplayNotFound" class="sapUiTinyMarginEnd"/>
+					<Button id="employeeListBtn" text="{i18n>ShowEmployeeList}" press="onNavToEmployees" class="sapUiTinyMarginEnd"/>
+				</content>
+			</Page>
+	
+</mvc:View>
